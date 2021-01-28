@@ -1,0 +1,62 @@
+@import 'normalizecss';
+@import 'fonts';
+$orange:#ff5912;
+$grey:#34404b;
+.container {
+    margin: 0 auto;
+    max-width: 1170px;
+}
+
+.fdc{
+    flex-direction: column;
+}
+.indent{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+li{
+    list-style: none;
+}
+.slick-slide {
+    outline: none
+}
+.fl {
+    display: -webkit-flex;
+    display: -ms-flex;
+    display: flex;
+}
+.jcc{
+    justify-content: center;
+}
+
+.sb {
+    justify-content: space-between;
+}
+.sa{
+    justify-content: space-around;
+}
+
+.ps{
+    position: relative;
+}
+.se{
+    justify-content: space-evenly;
+}
+.fw{
+    flex-wrap: wrap;
+}
+
+
+
+
+
+
+@import "hero";
+@import "arrivals";
+@import 'best-sales';
+@import 'footer';
+@import 'aside';

@@ -1,0 +1,160 @@
+.best-sales{
+    padding-bottom: 120px;
+}
+.sale-block{
+    display: inline-block;
+    background-color: #fff;
+}
+
+.sales-content{
+    margin-left: 55px;
+    margin-right: 30px;
+}
+.sales-img{
+    margin-bottom: 35px;
+    margin-left: 30px;
+    margin-top: 35px;
+}
+.star-rate{
+    color: #f4f6f8;
+    font-size: 16px;
+}
+.sales-header{
+    margin-top: 45px;
+    font-size: 18px;
+    font-family: HarmoniaBold;
+    color: $grey;
+}
+.bestsale-price{
+    font-size: 16px;
+    font-family: HarmoniaBold;
+
+}
+.back{
+    z-index: 2;
+}
+
+.best-sale-header{
+    font-size: 18px;
+    font-family: HarmoniaBold;
+    color: $grey;
+    margin-top: 50px;
+    margin-right: 30px;
+}
+.best-sale-img{
+    margin-left: 30px;
+    margin-top: 35px;
+    margin-bottom: 35px;
+}
+
+.header-group{
+    margin-left: 60px;
+}
+
+.best-sale-price{
+    font-size: 16px;
+    font-family: HarmoniaSemiBold;
+    margin-left: 50px;
+}
+
+.add-to-cart{
+    color: #e78871;
+    font-size: 16px;
+    font-family: HarmoniaSemiBold;
+    transition: color .2s linear;
+    &:hover{
+        color: $orange;
+    }
+}
+.best-sale-indent{
+    padding-left: 10px;
+    cursor: pointer;
+    color: $orange;
+
+}
+.sale-responsive{
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+@media screen and (max-width:1170px){
+    .sale-responsive{
+        flex-flow: column wrap;
+        align-items: center;
+
+    }
+    .sale-flip-indent{
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+
+}
+.news-letter{
+    background-color: #fff;
+    margin-top: 120px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+.news-right,
+.news-left{
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+.news-right{
+    margin-left: 55px;
+}
+.news-letterheader{
+    margin: 0;
+    color: $orange;
+    font-family: HarmoniaBlack;
+    font-size: 18px;
+    text-transform: uppercase;
+    margin-right: 15px;
+}
+.news-input{
+    border: 0;
+    outline: 0;
+    padding-left: 15px;
+    margin-right: 100px;
+    &:placeholder{
+        color: #7c8791;
+        font-size: 14px;
+        font-family: HarmoniaRegular;
+        font-style: italic;
+
+
+    }
+
+}
+.news-btn{
+    border: 0;
+    outline: 0;
+     padding: 17px 29px 18px;
+     background-color: $orange;
+     color: #fff;
+     font-family: HarmoniaSemiBold;
+     font-size: 16px;
+     position: relative;
+     bottom:25px;
+     margin-right: 45px;
+     transition: all .4s linear;
+     &:hover{
+         background-color: #fff;
+         color: $orange;
+     }
+
+}
+.news-description{
+    font-size: 14px;
+    color: $grey;
+    font-family:HarmoniaItalic;
+}
+@media screen and (max-width:980px){
+        .news-letter{
+            flex-direction: column;
+            align-items: center;
+        }
+        .news-input, .news-btn{
+            margin-right: 0px;
+        }
+}
